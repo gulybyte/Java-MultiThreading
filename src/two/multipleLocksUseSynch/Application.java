@@ -1,4 +1,4 @@
-package two.MultipleLocksUseSynch;
+package two.multipleLocksUseSynch;
 
 /*
  * multiplos lcks em complexas multi-thread's

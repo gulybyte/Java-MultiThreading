@@ -1,4 +1,4 @@
-package two.MultipleLocksUseSynch;
+package two.multipleLocksUseSynch;
 
 import java.util.ArrayList;
 import java.util.List;
