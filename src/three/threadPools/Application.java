@@ -1,9 +1,9 @@
-package three;
+package three.threadPools;
 
 /*
  * gerenciando vários encadeamentos em Java usando pools de encadeamentos.
  *  Com pools de threads, você pode atribuir toda uma coleção de threads para trabalhar
- *  em sua fila de tarefas.
+ *  em sua fila de tarefas, fixando o número estaticamente para as filas.
  */
 
 import java.util.concurrent.ExecutorService;
@@ -24,6 +24,7 @@ class Processor implements Runnable {
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
+            e.printStackTrace();
 		}
 
 		System.out.println("Completed: " + id);
