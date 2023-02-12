@@ -15,6 +15,10 @@ package one.implementsRunnable;
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
+<<<<<<< HEAD
+=======
+				// TODO Auto-generated catch block
+>>>>>>> aed7c59 (one, two and three)
 				e.printStackTrace();
 			}
 		}
